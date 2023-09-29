@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -40,8 +46,15 @@
 
       <!--! CHOOSE -->
       <section class="choose">
-        <p class="choos__text">Our requirements</p>
-        <h2 class="choose__title">How we choose our listings.</h2>
+        <div class="choose__texts">
+          <p class="text-orange">Our requirements</p>
+          <h2 class="title">How we choose our listings.</h2>
+
+          <p class="choose__text2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            scelerisque aliquam odio et faucibus.
+          </p>
+        </div>
 
         <div class="choose__container">
           <img src="./image/choose.png" alt="photo" />
@@ -83,31 +96,176 @@
       <!--! STORE -->
       <section class="store">
         <div class="container">
-          <p class="store__text">Current listings</p>
-          <h2 class="store__title">What we have in store for you.</h2>
-          <p class="store__descr">
+          <p class="text-orange">Current listings</p>
+          <h2 class="title">What we have in store for you.</h2>
+          <p class="subtitle">
             Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
             Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
             ultrices, ut faucibus orci tincidunt.
           </p>
+
           <ul class="store__list">
             <li class="store__item">
-              <img src="./image/store1.jpg" alt="" />
+              <img
+                class="store__img"
+                src="./image/store1.jpg"
+                alt="store-img"
+              />
               <h2 class="store__subtitle">House</h2>
               <h3 class="store__subtitle2">California St.</h3>
+
               <ul class="store__list-beds">
                 <li class="store__item-beds">
-                  <img src="./image/icon1.svg" alt="bad" />
+                  <img class="store__logo" src="./image/bed.svg" alt="bad" />
                   <p class="store__text-beds">16</p>
                   <p class="store__text-beds">beds</p>
                 </li>
                 <li class="store__item-beds">
-                  <img src="./image/icon2.svg" alt="" />
+                  <img
+                    class="store__logo"
+                    src="./image/bath.svg"
+                    alt="bathroom"
+                  />
                   <p class="store__text-beds">2</p>
                   <p class="store__text-beds">bathrooms</p>
                 </li>
                 <li class="store__item-beds">
-                  <img src="./image/icon3.svg" alt="rooms" />
+                  <img class="store__logo" src="./image/rooms.svg" alt="room" />
+                  <p class="store__text-beds">11</p>
+                  <p class="store__text-beds">rooms</p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./image/store2.jpg"
+                alt="store-img"
+              />
+              <h2 class="store__subtitle">Villa</h2>
+              <h3 class="store__subtitle2">Welford Gardens</h3>
+
+              <ul class="store__list-beds">
+                <li class="store__item-beds">
+                  <img src="./image/bed.svg" alt="bad" />
+                  <p class="store__text-beds">12</p>
+                  <p class="store__text-beds">beds</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/bath.svg" alt="bathroom" />
+                  <p class="store__text-beds">3</p>
+                  <p class="store__text-beds">bathrooms</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/rooms.svg" alt="room" />
+                  <p class="store__text-beds">16</p>
+                  <p class="store__text-beds">rooms</p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./image/store3.jpg"
+                alt="store-img"
+              />
+              <h2 class="store__subtitle">House</h2>
+              <h3 class="store__subtitle2">California St.</h3>
+
+              <ul class="store__list-beds">
+                <li class="store__item-beds">
+                  <img src="./image/bed.svg" alt="bad" />
+                  <p class="store__text-beds">16</p>
+                  <p class="store__text-beds">beds</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/bath.svg" alt="bathroom" />
+                  <p class="store__text-beds">2</p>
+                  <p class="store__text-beds">bathrooms</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/rooms.svg" alt="room" />
+                  <p class="store__text-beds">11</p>
+                  <p class="store__text-beds">rooms</p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./image/store4.jpg"
+                alt="store-img"
+              />
+              <h2 class="store__subtitle">House</h2>
+              <h3 class="store__subtitle2">California St.</h3>
+
+              <ul class="store__list-beds">
+                <li class="store__item-beds">
+                  <img src="./image/bed.svg" alt="bad" />
+                  <p class="store__text-beds">16</p>
+                  <p class="store__text-beds">beds</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/bath.svg" alt="bathroom" />
+                  <p class="store__text-beds">2</p>
+                  <p class="store__text-beds">bathrooms</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/rooms.svg" alt="room" />
+                  <p class="store__text-beds">11</p>
+                  <p class="store__text-beds">rooms</p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./image/store5.jpg"
+                alt="store-img"
+              />
+              <h2 class="store__subtitle">House</h2>
+              <h3 class="store__subtitle2">California St.</h3>
+
+              <ul class="store__list-beds">
+                <li class="store__item-beds">
+                  <img src="./image/bed.svg" alt="bad" />
+                  <p class="store__text-beds">16</p>
+                  <p class="store__text-beds">beds</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/bath.svg" alt="bathroom" />
+                  <p class="store__text-beds">2</p>
+                  <p class="store__text-beds">bathrooms</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/rooms.svg" alt="room" />
+                  <p class="store__text-beds">11</p>
+                  <p class="store__text-beds">rooms</p>
+                </li>
+              </ul>
+            </li>
+            <li class="store__item">
+              <img
+                class="store__img"
+                src="./image/store6.jpg"
+                alt="store-img"
+              />
+              <h2 class="store__subtitle">House</h2>
+              <h3 class="store__subtitle2">California St.</h3>
+
+              <ul class="store__list-beds">
+                <li class="store__item-beds">
+                  <img src="./image/bed.svg" alt="bad" />
+                  <p class="store__text-beds">16</p>
+                  <p class="store__text-beds">beds</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/bath.svg" alt="bathroom" />
+                  <p class="store__text-beds">2</p>
+                  <p class="store__text-beds">bathrooms</p>
+                </li>
+                <li class="store__item-beds">
+                  <img src="./image/rooms.svg" alt="room" />
                   <p class="store__text-beds">11</p>
                   <p class="store__text-beds">rooms</p>
                 </li>
@@ -116,13 +274,234 @@
           </ul>
         </div>
       </section>
-      <section class="team"></section>
-      <section class="newsroom"></section>
+
+      <!--! TEAM -->
+      <section class="team">
+        <div class="container">
+          <div class="team__wrapper">
+            <div class="team__inner">
+              <p class="text-orange">Our people</p>
+              <h2 class="title">
+                Meet our team of dedicated and talented agents.
+              </h2>
+
+              <h3 class="subtitle">
+                Morbi neque ex, condimentum dapibus congue et, vulputate ut
+                ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+                nisi ultrices, ut faucibus orci tincidunt.
+              </h3>
+
+              <a href="#" class="link"
+                >View our team <img src="./image/arrow.svg" alt="arrow"
+              /></a>
+            </div>
+
+            <ul class="team__list">
+              <li class="team__item">
+                <img src="./image/person1.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./image/person2.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./image/person3.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./image/person4.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./image/person5.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+              <li class="team__item">
+                <img src="./image/person6.jpg" alt="person" />
+
+                <div class="team__list-people">
+                  <h2 class="team__title">Ava Orn</h2>
+                  <h3 class="team__subtitle">Managing Broker</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- !NEWSROOM -->
+
+      <section class="newsroom">
+        <div class="container">
+          <div class="newsroom__titles">
+            <p class="text-orange">Newsroom</p>
+            <h2 class="title">Writing from Estate.</h2>
+          </div>
+
+          <ul class="newsroom__list">
+            <li class="newsroom__item">
+              <img class="newsroom__img" src="./image/newsroom1.jpg" alt="" />
+
+              <div class="newsroom__inner">
+                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__descr">
+                  Market watch: are condos still a good <br />
+                  investment?
+                </p>
+                <p class="newsroom__date">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="newsroom__item">
+              <img class="newsroom__img" src="./image/newsroom2.jpg" alt="" />
+
+              <div class="newsroom__inner">
+                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__descr">
+                  Market watch: are condos still a good <br />
+                  investment?
+                </p>
+                <p class="newsroom__date">August 12, 2021</p>
+              </div>
+            </li>
+            <li class="newsroom__item">
+              <img class="newsroom__img" src="./image/newsroom3.jpg" alt="" />
+
+              <div class="newsroom__inner">
+                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__descr">
+                  Market watch: are condos still a good <br />
+                  investment?
+                </p>
+                <p class="newsroom__date">August 12, 2021</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="newsroom__link">
+            <a href="#" class="link newsroom__link"
+              >Newsroom <img src="./image/arrow.svg" alt="arrow"
+            /></a>
+          </div>
+        </div>
+      </section>
       <section class="comments"></section>
       <section class="call"></section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <img class="footer__logo" src="./image/footerlogo.svg" alt="logo" />
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <h2 class="text-orange">Pages</h2>
+
+            <a href="#start" class="footer__link">Start</a>
+            <a href="#" class="footer__link">Listings</a>
+            <a href="#" class="footer__link">Listings alt. 2</a>
+            <a href="#" class="footer__link">Contact</a>
+            <a href="#" class="footer__link">Legal</a>
+          </li>
+          <li class="footer__item">
+            <h2 class="text-orange">Company</h2>
+
+            <a href="#" class="footer__link">About</a>
+            <a href="#" class="footer__link">Our team</a>
+            <a href="#" class="footer__link">Newsroom</a>
+          </li>
+          <li class="footer__item">
+            <h2 class="text-orange">Utility</h2>
+
+            <a href="#" class="footer__link">About</a>
+            <a href="#" class="footer__link">Our team</a>
+            <a href="#" class="footer__link">Newsroom</a>
+          </li>
+          <li class="footer__item">
+            <h2 class="text-orange">Newsletter</h2>
+
+            <p class="footer__link footer__link2">
+              Subscribe to our (infrequent) newsletter where we share news about
+              upcoming listings and projects.
+            </p>
+
+            <form
+              class="footer__form"
+              action="action="https://formspree.io/f/{form_id}" method="post"></form>"
+              method="POST"
+            >
+              <label>Fill this form</label>
+              <input
+                class="footer__email"
+                type="text"
+                name="message"
+                placeholder="Name"
+                required
+              />
+              <input
+                class="footer__email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <label>
+                <a href="./condition.html">Условия договра</a>
+                <input class="footer__checkbox" type="checkbox" required />
+              </label>
+              <button class="footer__btn">Submit</button>
+            </form>
+          </li>
+        </ul>
+
+        <div class="footer__wrapper">
+          <p class="footer__text">
+            © Estate, LLC. All rights reserved. Powered by Webflow
+          </p>
+
+          <ul class="footer__socials">
+            <li class="footer__links">
+              <a href="#" class="footer__links"
+                ><img src="./image/in.svg" alt="linkedin"
+              /></a>
+            </li>
+            <li class="footer__links">
+              <a href="#" class="footer__links"
+                ><img src="./image/facebook.svg" alt="facebook"
+              /></a>
+            </li>
+            <li class="footer__links">
+              <a href="#" class="footer__links"
+                ><img src="./image/instagram.svg" alt="instagram"
+              /></a>
+            </li>
+            <li class="footer__links">
+              <a href="#" class="footer__links"
+                ><img src="./image/tvitter.svg" alt="twitter"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-<ul class=""></ul>
