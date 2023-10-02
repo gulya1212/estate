@@ -41,7 +41,9 @@
         <img class="hero__logo" src="./image/logo2.svg" alt="logo2" />
         <p class="hero__text">wehe here to help you find a new home</p>
 
-        <ul class="hero__list"></ul>
+        <a class="hero__link" href="#store">
+          <img src="./image/arrow_down.svg" alt="arrow" />
+        </a>
       </section>
 
       <!--! CHOOSE -->
@@ -94,15 +96,17 @@
       <section class="bg"></section>
 
       <!--! STORE -->
-      <section class="store">
+      <section id="store" class="store">
         <div class="container">
-          <p class="text-orange">Current listings</p>
-          <h2 class="title">What we have in store for you.</h2>
-          <p class="subtitle">
-            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
-            Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
-            ultrices, ut faucibus orci tincidunt.
-          </p>
+          <div class="store__title">
+            <p class="text-orange">Current listings</p>
+            <h2 class="title">What we have in store for you.</h2>
+            <p class="subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+          </div>
 
           <ul class="store__list">
             <li class="store__item">
@@ -272,6 +276,10 @@
               </ul>
             </li>
           </ul>
+
+          <a href="#" class="link store__link"
+            >Show all listings <img src="./image/arrow.svg" alt="arrow"
+          /></a>
         </div>
       </section>
 
@@ -363,7 +371,7 @@
               <img class="newsroom__img" src="./image/newsroom1.jpg" alt="" />
 
               <div class="newsroom__inner">
-                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__text text-orange">Press release</p>
                 <p class="newsroom__descr">
                   Market watch: are condos still a good <br />
                   investment?
@@ -375,7 +383,7 @@
               <img class="newsroom__img" src="./image/newsroom2.jpg" alt="" />
 
               <div class="newsroom__inner">
-                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__text text-orange">Press release</p>
                 <p class="newsroom__descr">
                   Market watch: are condos still a good <br />
                   investment?
@@ -387,7 +395,7 @@
               <img class="newsroom__img" src="./image/newsroom3.jpg" alt="" />
 
               <div class="newsroom__inner">
-                <p class="newsroom__text">Press release</p>
+                <p class="newsroom__text text-orange">Press release</p>
                 <p class="newsroom__descr">
                   Market watch: are condos still a good <br />
                   investment?
@@ -404,26 +412,62 @@
           </div>
         </div>
       </section>
-      <section class="comments"></section>
-      <section class="call"></section>
-    </main>
+      <section class="comments">
+        <div class="container">
+          <p class="text-orange">Testimonials</p>
+          <h2 class="title">What our customers say.</h2>
+          <ul class="comments__list">
+            <li class="comments__item">
+              <img src="./image/stars2.svg" alt="imgstars" />
+              <h3 class="comments__subtitle">We're so happy with Estate.</h3>
+              <p class="comments__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                cursus id rutrum lorem imperdiet.
+              </p>
 
-    <section class="store">
-      <div class="container">
-        <p class="text-orange">Testimonials</p>
-        <h2 class="title">What our customers say.</h2>
-       <ul>
-        <li>
-          <img src="./image/iconstars.svg" alt="imgstars">
-          <h3>We found the perfect home!</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-        </li>
-        <div>
-          <span class="line"></span>
-          <p class="coment__text2">Nate Davidsson</p>
+              <div class="comments__line">
+                <span class="line"></span>
+                <p class="comennts__text2">Laura Paulie</p>
+              </div>
+            </li>
+            <li class="comments__item">
+              <img src="./image/iconstars.svg" alt="imgstars" />
+              <h3 class="comments__subtitle">We found the perfect home!</h3>
+              <p class="comments__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                tristique posuere.
+              </p>
+
+              <div class="comments__line">
+                <span class="line"></span>
+                <p class="comennts__text2">Nate Davidsson</p>
+              </div>
+            </li>
+          </ul>
         </div>
-        
-       </ul>
+      </section>
+      <section class="call">
+        <p class="text-orange">Seen enough?</p>
+        <h2 class="call__title">Get in touch with us today.</h2>
+        <p class="call__text">
+          Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices,
+          ut faucibus orci tincidunt.
+        </p>
+
+        <div class="call__wrapper">
+          <button class="call__btn">Contact</button>
+          <button class="call__btn">See listings</button>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="container">
@@ -463,9 +507,10 @@
 
             <form
               class="footer__form"
-              action="action="https://formspree.io/f/{form_id}" method="post"></form>"
-              method="POST"
+              action="https://formspree.io/f/xgejpyap"
+              method="post"
             >
+              >
               <label>Fill this form</label>
               <input
                 class="footer__email"
